@@ -5,17 +5,30 @@ body{
 }
 li, a{
     text-decoration: none;
-    padding: 30px;
+    padding: 10px;
+    align-self: center;
     color: white;
     list-style-type: none;
-    margin-bottom:-3px ;
+    margin-bottom:-5px ;
 }
 .navbar{
     display: flex;
     align-items: center;
-    margin-left: 250px;
-    
+    width: 100%;
+    padding: 16px ;
+    background-color: rgb(189, 211, 216);
+    align-content: center;
+} 
+@media  screen and (max-width:767px) {
+  
+    .navbar{
+        display: flex;
+        align-items: center;
 
+        text-align: center;
+    
+    }
+    
 }
 .s1{
     background-image: url(9.jpg);

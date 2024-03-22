@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
